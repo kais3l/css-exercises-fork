@@ -1,0 +1,18 @@
+.Odd-num{
+    background-color:rgb(255,182,196);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#element-2{
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+
+.font-size{
+    font-size: 24px;
+}
+
+#element-4{
+    background-color: #90ee90;
+    font-weight: bold;
+}

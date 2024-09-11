@@ -1,0 +1,14 @@
+.ele-1{
+    background-color: #000000;
+    color:rgb(255,255,255);
+}
+
+.ele-2{
+    background-color:rgb(255, 255, 0);
+}
+
+.ele-1,
+.ele-2{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
