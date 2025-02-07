@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display:flex; /*this is to make the container div a flex container (the direction is row by default)*/
+  justify-content:center; /*this will make the content inside the container div centered along the main axis(horizontally in this case)*/
+  align-items: center; /*this will align the div element inside the container div to the center of the cross axis(vertically in this case)*/
 }
 
 .box {
