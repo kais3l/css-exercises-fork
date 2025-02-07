@@ -12,7 +12,27 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.left-side {
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap:16px;
+}
+
+
+.right-side {
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 16px;
+}
+
+/*instead of writing the properties of left and right side separately, We could instead write both of them simultaneously as all the values are same*/
 
 .profile-image {
   background: rebeccapurple;
@@ -44,5 +64,10 @@ a {
 }
 
 ul {
+  margin:0;
+  padding:0;
   list-style-type: none;
+  display: flex;
+  /* justify-content: center; */
+  gap:16px;
 }
